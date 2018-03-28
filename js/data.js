@@ -4,7 +4,7 @@ $('.show-hide-add-peak').click(function() {
 	$('.show-hide-minus').toggle();
 });
 
-var url = "http://@nodejs_ip@/api/";
+var url = "http://@nodejs_ip@:3000/api/";
 $("document").ready(function() {
     $("#getcontent").click(getContent);
     $("#add-data").click(addContent);
