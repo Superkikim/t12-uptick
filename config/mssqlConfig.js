@@ -1,9 +1,9 @@
 module.exports = {
   connConfig: {
-    server: '10.21.35.114',
+    server: '@mssql_ip@',
     database: 'Uptick',
-    user: 'NTNXLAB\adminuser01',
-    password: 'nutanix/4u',
+    user: '@mssql_user@',
+    password: '@mssql_password@',
     port: '1433'
   }
 };
